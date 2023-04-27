@@ -8,18 +8,83 @@
     }
 
     .header {
-        border: 2px solid red;
     background-image: url("./images/smiling-image.jpg");
     background-size: cover;
     background-position: 50% 25%;
     padding: 60px 30px 40px 30px;
+
     }
 
     .header-content{
-        border: 2px solid blue;
         max-width: 50%;
         margin-left: 80px;
 
+    }
+
+    .header-text{
+        max-width: 80%;
+
+    }
+
+    .header-text p{
+    margin-bottom: 25px;
+
+    }
+
+    .marketing{
+        border: 2px green;
+        padding: 70px 30px;
+    }
+
+    .marketing-text{
+        text-align: center;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 70px;
+        padding: 20px;
+    }
+
+    .student-testimonial{
+        border: 2px red;
+        padding: 30px 70px 90px 70px;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .student-content{
+        border: 2px palevioletred;
+        max-width: 30%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+    }
+
+    .learning{
+
+        padding: 30px 70px;
+    }
+
+    .left{
+        float: left;
+    }
+
+    .right{
+        float: right;
+    }
+
+    .footer{
+        padding: 70px;
+        clear: both;
+    }
+
+    .footer h4{
+        margin: 40px;
+        text-align: center;
+    }
+
+    .learning-button{
+        text-align: center;
     }
 
     p, li {
